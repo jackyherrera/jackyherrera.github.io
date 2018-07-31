@@ -1,0 +1,48 @@
+body	{
+	background-image: url(image/sky.jpg);
+	background-attachment: fixed;
+	background-position:center bottom;
+	background-size: cover;
+	background-repeat: repeat;
+}
+#top_nav{
+	text-align:right;
+}
+.top_nav_item:hover {
+	color: yellow;
+	font-size: 1.1em;
+}
+.top_nav_item { 
+ 	margin:20px;
+ 	color:white;
+ 	font-size: 1.2em;
+ 	text-decoration:none;
+ }
+
+ #current_page {
+	border-bottom: 3px solid black;
+}
+
+#shad {
+	text-align:center;
+	text-shadow: 7px 7px 7px black;
+	font-size: 6em;
+	color: white;
+
+}
+
+.work {
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+	display:inline-block;
+	border:black 2px solid;
+	width: 	30%;
+	text-align: center;
+	margin: auto 10px;
+	padding-bottom: 30px;
+	background: rgba(255,255,255,.2);
+}
+
+
+
